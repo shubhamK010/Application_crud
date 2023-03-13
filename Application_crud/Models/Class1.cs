@@ -12,7 +12,7 @@ namespace Application_crud.Models
         {
             [Key]
             [Required]
-            [DisplayName("EMP ID")]
+            [DisplayName("ID")]
             public int Id { get; set; }
         [Required]
             [DisplayName("CategoryId")]
